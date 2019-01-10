@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  display: inline-block;
+}
+
+header {
+	width: 100%;
+	height: 15%;
+	background-color: #008000;
+	float: left;
+	text-align: center;
+	font-family: "Bitter", serif;
+/*	color: #67CD00;*/
+	color: #fff;
+	font-size: 3.75em;
+	line-height: 2em;
+}
+
+#timelineZone {
+	width: 100%;
+	height: 15%;
+	background-color: #67CD00;
+	float: left;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	color: #fff;
+	font-size: 2em;
+	line-height: 4em;
+}
+
+#timelineDateL {
+	width: 10%;
+	float: left;
+	text-align: right;
+}
+
+#timeline {
+	width: 75%;
+	height: 100%;
+	float: left;
+	background-color: #008000;
+	position: relative;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	color: #fff;
+	font-size: 1em;
+	line-height: 3.75em;
+}
+
+#about-content {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	/*border: 1px solid #008000;*/
+	text-align:left;
+	float:right;
+	position: absolute;
+	display: none;
+	top: 0;
+	overflow: scroll;
+}
+
+#about-content p {
+	width: 90%;
+	font-family: "Lato", sans-serif;
+	color: #000;
+	font-size: 0.5em;
+	line-height: 1em;
+	padding: 3% 5% 0% 5%;
+}
+
+#timelineDateR {
+	width: 10%;
+	float: left;
+	text-align: left;
+}
+
+#bufferZone {
+	width: 7%;
+	height: 65%;
+	background-color: #008000;
+	float: left;
+	position: relative;
+}
+
+#photoSection {
+	width: 30%;
+	height: 65%;
+	background-color: #008000;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+#mapSection {
+	width: 63%;
+	height: 65%;
+	background-color: #008000;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+#imageSlides {
+	width: 100%;
+	background-color: #008000;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.bjqs {
+	width: 100%;
+	height: 85%;
+}
+
+.bjqs li img {
+	width: 400px;
+}
+
+#streetview {
+	height: 75%;
+	width: 45%;
+	margin-left: 7%;
+	margin-top: 1%;
+	float: left;
+	background-color: #67CD00;
+	position: relative;
+	top: 10%;
+  	transform: translateY(-50%);
+}
+
+#map {
+	height: 50%;
+	width: 30%;
+	margin-left: 5%;
+	float: left;
+	position: relative;
+	top: 25%;
+  	transform: translateY(-50%);
+}
+
+footer {
+	width: 100%;
+	height: 5%;
+	background-color: #67CD00;
+	float: left;
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+	line-height: 2.5em;
+	font-family: "Lato", sans-serif;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
